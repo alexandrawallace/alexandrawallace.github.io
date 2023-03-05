@@ -2,16 +2,8 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://alexandrawallace.github.io/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://alexandrawallace.github.io/en/about/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://alexandrawallace.github.io/about/"
-                    /></url><url>
-            <loc>https://alexandrawallace.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://alexandrawallace.github.io/new/</loc><lastmod>2023-03-04T21:40:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://alexandrawallace.github.io/categories/</loc><lastmod>2023-03-04T21:40:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://alexandrawallace.github.io/en/categories/"
@@ -20,8 +12,8 @@
                     hreflang="zh-cn"
                     href="https://alexandrawallace.github.io/categories/"
                     /></url><url>
-            <loc>https://alexandrawallace.github.io/posts/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://alexandrawallace.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://alexandrawallace.github.io/posts/</loc><lastmod>2023-03-04T21:40:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://alexandrawallace.github.io/tags/</loc><lastmod>2023-03-04T21:40:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://alexandrawallace.github.io/en/tags/"
@@ -30,7 +22,10 @@
                     hreflang="zh-cn"
                     href="https://alexandrawallace.github.io/tags/"
                     /></url><url>
-            <loc>https://alexandrawallace.github.io/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>https://alexandrawallace.github.io/tags/%E5%85%B3%E4%BA%8E/</loc><lastmod>2023-03-04T21:40:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://alexandrawallace.github.io/categories/%E7%9A%AE/</loc><lastmod>2023-03-04T21:40:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://alexandrawallace.github.io/tags/%E7%9A%AE%E9%9D%A9%E6%96%B0%E8%8C%B6%E9%A6%86/</loc><lastmod>2023-03-04T21:40:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://alexandrawallace.github.io/</loc><lastmod>2023-03-04T21:40:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://alexandrawallace.github.io/en/"
@@ -38,4 +33,13 @@
                     rel="alternate"
                     hreflang="zh-cn"
                     href="https://alexandrawallace.github.io/"
+                    /></url><url>
+            <loc>https://alexandrawallace.github.io/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://alexandrawallace.github.io/en/about/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://alexandrawallace.github.io/about/"
                     /></url></urlset>
