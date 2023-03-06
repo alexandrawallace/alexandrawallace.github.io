@@ -1,10 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>皮革新茶馆</title>
-        <link>https://alexandrawallace.github.io/en/</link>
+        <link>https://newtea.tk/en/</link>
         <description>皮·革新茶馆</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>newtea@newtea.tk (皮革新茶馆)</managingEditor>
             <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-            <atom:link href="https://alexandrawallace.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://newtea.tk/en/index.xml" rel="self" type="application/rss+xml" />
         </channel>
 </rss>

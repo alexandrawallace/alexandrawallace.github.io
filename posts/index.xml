@@ -1,16 +1,24 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>所有文章 - 皮革新茶馆</title>
-        <link>https://alexandrawallace.github.io/posts/</link>
+        <link>https://newtea.tk/posts/</link>
         <description>所有文章 | 皮革新茶馆</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>newtea@newtea.tk (皮革新茶馆)</managingEditor>
-            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</lastBuildDate><atom:link href="https://alexandrawallace.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</lastBuildDate><atom:link href="https://newtea.tk/posts/" rel="self" type="application/rss+xml" /><item>
     <title>皮·革新茶馆</title>
-    <link>https://alexandrawallace.github.io/new/</link>
+    <link>https://newtea.tk/webshare/</link>
     <pubDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</pubDate>
     <author>Newtea</author>
-    <guid>https://alexandrawallace.github.io/new/</guid>
-    <description><![CDATA[皮·革新茶馆]]></description>
+    <guid>https://newtea.tk/webshare/</guid>
+    <description><![CDATA[网站收藏分享 ※※ 更新日志：2022.12.16 ※※ 你可用通过快捷键 Ctrl + F 快速进入搜索模式 ※※ 你可以输入相关关键字进行搜索，如：视频 ※※ 文件名]]></description>
+</item>
+<item>
+    <title>皮·革新茶馆</title>
+    <link>https://newtea.tk/new/</link>
+    <pubDate>Sat, 04 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/new/</guid>
+    <description><![CDATA[文章陆续迁移中&hellip;]]></description>
 </item>
 </channel>
 </rss>

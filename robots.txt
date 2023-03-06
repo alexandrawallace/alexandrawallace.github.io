@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://alexandrawallace.github.io/en/sitemap.xml
+Sitemap: https://newtea.tk/en/sitemap.xml
