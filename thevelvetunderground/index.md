@@ -16,8 +16,8 @@ The Velvet Underground 是一个在1964年于纽约成立的乐队
 
 ### Video
 
-可以下载：[[The Velvet Underground - After Hours-(1080p).mp4]][https://newtea.ml/alexandrawallace/newtea/blob/master/newtea/files/video/The%20Velvet%20Underground%20-%20After%20Hours-(1080p).mp4?raw=true]  
-[https://newtea.ml/alexandrawallace/newtea/blob/master/newtea/files/video/The%20Velvet%20Underground%20-%20After%20Hours-(1080p).mp4?raw=true]: https://newtea.ml/alexandrawallace/newtea/blob/master/newtea/files/video/The%20Velvet%20Underground%20-%20After%20Hours-(1080p).mp4?raw=true "The Velvet Underground - After Hours-(1080p).mp4"
+可以下载：[The Velvet Underground - After Hours-(1080p).mp4](https://newtea.ml/alexandrawallace/newtea/blob/master/newtea/files/video/The%20Velvet%20Underground%20-%20After%20Hours-(1080p).mp4?raw=true "蓝奏云下载")
+
 
 ### 结尾
 
