@@ -5,12 +5,52 @@
         <description>所有文章 | 皮革新茶馆</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>newtea@newtea.tk (皮革新茶馆)</managingEditor>
             <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</lastBuildDate><atom:link href="https://newtea.tk/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>flask上传下载</title>
+    <link>https://newtea.tk/flask-up-down/</link>
+    <pubDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/flask-up-down/</guid>
+    <description><![CDATA[flask上传下载文件 flask简单的上传下载实现 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 from flask import Flask,render_template,request,send_file from werkzeug.utils import secure_filename #创]]></description>
+</item>
+<item>
+    <title>地下丝绒</title>
+    <link>https://newtea.tk/thevelvetunderground/</link>
+    <pubDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/thevelvetunderground/</guid>
+    <description><![CDATA[- 地下丝绒 ​ The Velvet Underground &amp; Nico https://www.newtea.tk 介绍 The Velvet Underground 是一个在1964年于纽约成立的乐队 在后世，地下丝绒被认为是在地下音乐、实验音乐和另类摇滚中影响力最大的存在]]></description>
+</item>
+<item>
+    <title>简单了解一下博弈论</title>
+    <link>https://newtea.tk/gametheory/</link>
+    <pubDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/gametheory/</guid>
+    <description><![CDATA[博弈论相关 博弈论 - 喝茶慢慢说 【茶】 博弈论，生活处处都是博弈 就好比过个马路都与博弈论紧密相关， 假设现在你在过马路，一辆汽车行驶过来，司机觉着你]]></description>
+</item>
+<item>
     <title>网站分享</title>
     <link>https://newtea.tk/webshare/</link>
     <pubDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</pubDate>
     <author>Newtea</author>
     <guid>https://newtea.tk/webshare/</guid>
     <description><![CDATA[网站收藏分享 ※※ 更新日志：2022.12.16 ※※ 你可用通过快捷键 Ctrl + F 快速进入搜索模式 ※※ 你可以输入相关关键字进行搜索，如：视频 ※※ 文件名]]></description>
+</item>
+<item>
+    <title>资源下载</title>
+    <link>https://newtea.tk/resourceshare/</link>
+    <pubDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/resourceshare/</guid>
+    <description><![CDATA[资源下载 点击蓝奏云下载 更新内容： 无 更新时间：无]]></description>
+</item>
+<item>
+    <title>《一九八四》</title>
+    <link>https://newtea.tk/book-1984/</link>
+    <pubDate>Sat, 04 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/book-1984/</guid>
+    <description><![CDATA[《一九八四》 《一九八四》作者：乔治·奥威尔（这本书已有上映的电影） ​ 乔治·奥威尔 ​ 在中国，这本书在1980年代末还是一本禁书，现在是被允许出]]></description>
 </item>
 <item>
     <title>皮·革新茶馆</title>
