@@ -37,4 +37,13 @@
                     rel="alternate"
                     hreflang="en"
                     href="https://newtea.tk/en/"
+                    /></url><url>
+            <loc>https://newtea.tk/en/game/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://newtea.tk/game/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://newtea.tk/en/game/"
                     /></url></urlset>
