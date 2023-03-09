@@ -17,7 +17,7 @@ logo="https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/avatar.jpg
 word="不想当写手的码农不是好咸鱼_(xз」∠)_"
 primary-color="default"
 img-animation="auto_rotate_left"
-border-animation="shadow"
+border-animation="led"
 >}}
 {{< friend
 name="dillonzq / LoveIt"
