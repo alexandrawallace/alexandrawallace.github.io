@@ -1,6 +1,15 @@
-# 关于 皮革新茶馆
+# 关于
 
 
 > 享思所想
-
+>
 > 皮·革新茶馆
+{{< admonition >}}
+-
+{{< /admonition >}}
+{{< friend-css 
+name="雨临Lewis的博客"
+url="lewky.cn"
+logo="https://cdn.jsdelivr.net/gh/lewky/lewky.github.io@master/images/avatar.jpg"
+word="不想当写手的码农不是好咸鱼_(xз」∠)_"
+>}}
