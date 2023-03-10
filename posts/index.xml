@@ -5,6 +5,14 @@
         <description>所有文章 | 皮革新茶馆</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>newtea@newtea.tk (皮革新茶馆)</managingEditor>
             <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://newtea.tk/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Python知识汇总</title>
+    <link>https://newtea.tk/python-study-all/</link>
+    <pubDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/python-study-all/</guid>
+    <description><![CDATA[字典 dictionary 1 2 3 4 5 6 7 8 9 # 遍历字典 for k,v in dict_test.items(): print(k,v) for key in dict_test.keys(): print(k) for value in dict_test.values(): print(k) for key in dict_test: print(key) 列表 list 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 # 获取最大频繁项 list_test]]></description>
+</item>
+<item>
     <title>免费影视APP</title>
     <link>https://newtea.tk/free-app-share/</link>
     <pubDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</pubDate>
