@@ -11,6 +11,15 @@
             <loc>https://newtea.tk/resourceshare/</loc><lastmod>2023-03-04T21:40:32&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://newtea.tk/book-1984/</loc><lastmod>2023-03-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://newtea.tk/new/</loc><lastmod>2023-03-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://newtea.tk/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="en"
+                        href="https://newtea.tk/en/about/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="zh-cn"
+                    href="https://newtea.tk/about/"
+                    /></url><url>
             <loc>https://newtea.tk/tags/app/</loc><lastmod>2023-03-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://newtea.tk/categories/</loc><lastmod>2023-03-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
@@ -62,15 +71,6 @@
             <loc>https://newtea.tk/tags/%E4%B9%A6%E7%B1%8D/</loc><lastmod>2023-03-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://newtea.tk/tags/%E6%96%87%E5%AD%A6/</loc><lastmod>2023-03-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://newtea.tk/categories/%E6%96%87%E5%AD%A6/</loc><lastmod>2023-03-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://newtea.tk/about/</loc><lastmod>2019-08-02T11:04:49&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
-                        rel="alternate"
-                        hreflang="en"
-                        href="https://newtea.tk/en/about/"
-                        /><xhtml:link
-                    rel="alternate"
-                    hreflang="zh-cn"
-                    href="https://newtea.tk/about/"
-                    /></url><url>
             <loc>https://newtea.tk/game/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
