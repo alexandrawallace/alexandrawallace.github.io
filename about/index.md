@@ -37,3 +37,10 @@ img-animation="auto_rotate_left"
 border-animation="led"
 >}}
 
+> # update log
+> 2023-03-09 Add friend link style, fix date display error
+> 2023-03-08 Add search function, add mini games
+> 2023-03-06 Change the comment system to waline
+> 2023-03-05 Add valine comment system, fix missing pages
+> 2023-03-04 Relocate some articles and modify the subject content
+> 2023-03-02 Website Rebuild with HUGO
