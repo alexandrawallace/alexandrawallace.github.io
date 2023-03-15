@@ -4,7 +4,15 @@
         <link>https://newtea.tk/posts/</link>
         <description>所有文章 | 皮革新茶馆</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>newtea@newtea.tk (皮革新茶馆)</managingEditor>
-            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://newtea.tk/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 15 Mar 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://newtea.tk/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>replit搭建xray</title>
+    <link>https://newtea.tk/replit-node/</link>
+    <pubDate>Wed, 15 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/replit-node/</guid>
+    <description><![CDATA[前提条件 一个邮箱账户 注意 本文介绍的技术仅供学习交流、参考，请勿滥用或违规使用 步骤 进入Replit的官网 完成账号的注册、新手指引直接可以跳过 获]]></description>
+</item>
+<item>
     <title>Python知识汇总</title>
     <link>https://newtea.tk/python-study-all/</link>
     <pubDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</pubDate>
@@ -34,7 +42,7 @@
     <pubDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</pubDate>
     <author>Newtea</author>
     <guid>https://newtea.tk/thevelvetunderground/</guid>
-    <description><![CDATA[介绍 The Velvet Underground 是一个在1964年于纽约成立的乐队 在后世，地下丝绒被认为是在地下音乐、实验音乐和另类摇滚中影响力最大的存在之一。地下丝绒的大胆选材]]></description>
+    <description><![CDATA[- 地下丝绒 ​ The Velvet Underground &amp; Nico https://www.newtea.tk 介绍 The Velvet Underground 是一个在1964年于纽约成立的乐队 在后世，地下丝绒被认为是在地下音乐、实验音乐和另类摇滚中影响力最大的存在]]></description>
 </item>
 <item>
     <title>简单了解一下博弈论</title>
