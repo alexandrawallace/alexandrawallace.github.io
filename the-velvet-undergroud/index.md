@@ -13,6 +13,10 @@ The Velvet Underground 是一个在1964年于纽约成立的乐队
 
 无论是音乐还是文学，如果想更好的去了解，都很应该先去了解其诞生在怎样的一个时代背景，抛开时代背景去听或者去看都会很容易产生不必要的误解
 
+### Music
+{{<music server="netease" type="song" id="19537518">}}
+{{<music server="netease" type="song" id="19537516">}}
+{{<music server="netease" type="song" id="19537505">}}
 ### Video
 
 {{<bilibili BV1nJ411X7FP>}}
