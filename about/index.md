@@ -12,6 +12,7 @@
 >
 > {{< friend name="HUGO" url="https://gohugo.io/" logo="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f…334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg" word="HUGO"  primary-color="default" img-animation="auto_rotate_left" border-animation="led" >}}
 >
+> {{< youtube w7Ft2ymGmfc >}}
 > # 更新日志
 > - 2023-03-09 添加友链样式、修复日期显示错误问题
 > - 2023-03-08 添加搜索功能、添加小游戏
