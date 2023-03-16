@@ -49,9 +49,20 @@ str_one="abCD"
 str_two="ABcd"
 print(str_two.lower()==str_one.lower())
 ```
-
----
-
+### sort_values
+```python
+DataFrame.sort_values(by='##',axis=0,ascending=True inplace=False, na_position='last')  # 列，升降排序，替换，缺失值
+```
+## Pandas相关
+### isin()
+```python
+# 取出存在或者不存在列表中的数据
+lst = ['1','3']
+data = {'num': ['1', '2', '3', '4', '5']}
+df = pd.DataFrame(data)
+not_list_df = df[~df['num'].isin(lst)] #~为反向取值 
+in_list_df = df[df['num'].isin(lst)]
+```
 ### 日志
 
 * 最近更新：字典、列表

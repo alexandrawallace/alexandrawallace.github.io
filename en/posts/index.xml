@@ -1,12 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>皮革新茶馆</title>
-        <link>https://newtea.tk/en/</link>
-        <description>皮·革新茶馆</description>
+        <title>All Posts - 皮革新茶馆</title>
+        <link>https://newtea.tk/en/posts/</link>
+        <description>All Posts | 皮革新茶馆</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>newtea@newtea.tk (皮革新茶馆)</managingEditor>
-            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</lastBuildDate>
-            <atom:link href="https://newtea.tk/en/index.xml" rel="self" type="application/rss+xml" />
-        <item>
+            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</lastBuildDate><atom:link href="https://newtea.tk/en/posts/" rel="self" type="application/rss+xml" /><item>
     <title>excel</title>
     <link>https://newtea.tk/en/excel-knowledge/</link>
     <pubDate>Fri, 02 Aug 2019 11:04:49 &#43;0800</pubDate>
