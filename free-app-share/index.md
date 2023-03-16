@@ -16,7 +16,7 @@
 【界面】
 
 * 安卓  
-  ​![www.newtea.tk](https://newtea.ml/alexandrawallace/newtea/raw/master/newtea/files/NO1app.jpg "www.newtea.tk")[https://www.newtea.tk](https://www.newtea.tk "www.newtea.tk")
+  {{< figure src="/images/NO1app.jpg" title="乐看APP" >}}
 
 【说明】
 
