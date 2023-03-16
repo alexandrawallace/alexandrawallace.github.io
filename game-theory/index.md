@@ -2,6 +2,7 @@
 
 
 # 博弈论相关
+{{< figure src="/images/John-von-Neumann.jpg" title="John von Neumann">}}
 
 # 博弈论 - 简说
 

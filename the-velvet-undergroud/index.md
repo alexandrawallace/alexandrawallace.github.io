@@ -3,8 +3,7 @@
 
 ## - 地下丝绒
 
-​![The Velvet Underground & Nico](https://newtea.ml/alexandrawallace/newtea/raw/master/newtea/files/image/Velvet_Underground_and_Nico.jpg "The Velvet Underground &amp; Nico")[https://www.newtea.tk](https://www.newtea.tk "The Velvet Underground &amp; Nico")
-
+{{<figure src="/images/The-Velvet-Underground.jpg" title="The Velvet Underground">}}
 ### 介绍
 
 The Velvet Underground 是一个在1964年于纽约成立的乐队  
@@ -16,7 +15,7 @@ The Velvet Underground 是一个在1964年于纽约成立的乐队
 
 ### Video
 
-可以下载：[The Velvet Underground - After Hours-(1080p).mp4](https://newtea.ml/alexandrawallace/newtea/blob/master/newtea/files/video/The%20Velvet%20Underground%20-%20After%20Hours-(1080p).mp4?raw=true "蓝奏云下载")
+{{<bilibili BV1nJ411X7FP>}}
 
 
 ### 结尾

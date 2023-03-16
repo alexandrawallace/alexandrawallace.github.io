@@ -2,7 +2,7 @@
 
 
 # 《一九八四》
-
+{{< figure src="/images/George_Orwell_press_photo.jpg" title="George_Orwell">}}
 - 《一九八四》作者：乔治·奥威尔（这本书已有上映的电影）
 
 ​![乔治·奥威尔](https://newtea.ml/alexandrawallace/newtea/raw/master/newtea/files/image/George_Orwell_press_photo.jpg "乔治·奥威尔")​
