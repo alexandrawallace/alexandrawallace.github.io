@@ -16,58 +16,58 @@
 </item>
 <item>
     <title>Python知识汇总</title>
-    <link>https://newtea.tk/python-study-all/</link>
+    <link>https://newtea.tk/python-knowledge/</link>
     <pubDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>Newtea</author>
-    <guid>https://newtea.tk/python-study-all/</guid>
+    <guid>https://newtea.tk/python-knowledge/</guid>
     <description><![CDATA[字典 dictionary 1 2 3 4 5 6 7 8 9 # 遍历字典 for k,v in dict_test.items(): print(k,v) for key in dict_test.keys(): print(k) for value in dict_test.values(): print(k) for key in dict_test: print(key) 列表 list 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 # 获取最大频繁项 list_test]]></description>
 </item>
 <item>
     <title>免费影视APP</title>
-    <link>https://newtea.tk/free-app-share/</link>
+    <link>https://newtea.tk/free-app/</link>
     <pubDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>Newtea</author>
-    <guid>https://newtea.tk/free-app-share/</guid>
+    <guid>https://newtea.tk/free-app/</guid>
     <description><![CDATA[No.1 乐看视频 下载点击：官方链接 【介绍】 乐看视频APP，所有资源均由搜索引擎检索于公开网络，通过爬虫获取网络资源 官方标语：希望你看的每一部电影,]]></description>
 </item>
 <item>
     <title>flask上传下载</title>
-    <link>https://newtea.tk/flask-up-down/</link>
+    <link>https://newtea.tk/flask/</link>
     <pubDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</pubDate>
     <author>Newtea</author>
-    <guid>https://newtea.tk/flask-up-down/</guid>
+    <guid>https://newtea.tk/flask/</guid>
     <description><![CDATA[flask上传下载文件 flask简单的上传下载实现 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 from flask import Flask,render_template,request,send_file from werkzeug.utils import secure_filename #创]]></description>
 </item>
 <item>
     <title>地下丝绒</title>
-    <link>https://newtea.tk/thevelvetunderground/</link>
+    <link>https://newtea.tk/the-velvet-undergroud/</link>
     <pubDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</pubDate>
     <author>Newtea</author>
-    <guid>https://newtea.tk/thevelvetunderground/</guid>
+    <guid>https://newtea.tk/the-velvet-undergroud/</guid>
     <description><![CDATA[- 地下丝绒 ​ The Velvet Underground &amp; Nico https://www.newtea.tk 介绍 The Velvet Underground 是一个在1964年于纽约成立的乐队 在后世，地下丝绒被认为是在地下音乐、实验音乐和另类摇滚中影响力最大的存在]]></description>
 </item>
 <item>
     <title>简单了解一下博弈论</title>
-    <link>https://newtea.tk/gametheory/</link>
+    <link>https://newtea.tk/game-theory/</link>
     <pubDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</pubDate>
     <author>Newtea</author>
-    <guid>https://newtea.tk/gametheory/</guid>
+    <guid>https://newtea.tk/game-theory/</guid>
     <description><![CDATA[博弈论相关 博弈论 - 简说 【茶】 博弈论，生活处处都是博弈 就好比过个马路都与博弈论紧密相关， 假设现在你在过马路，一辆汽车行驶过来，司机觉着你会冲过]]></description>
 </item>
 <item>
     <title>网站分享</title>
-    <link>https://newtea.tk/webshare/</link>
+    <link>https://newtea.tk/web-share/</link>
     <pubDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</pubDate>
     <author>Newtea</author>
-    <guid>https://newtea.tk/webshare/</guid>
+    <guid>https://newtea.tk/web-share/</guid>
     <description><![CDATA[网站收藏分享 ※※ 更新日志：2022.12.16 ※※ 你可用通过快捷键 Ctrl + F 快速进入搜索模式 ※※ 你可以输入相关关键字进行搜索，如：视频 ※※ 文件名]]></description>
 </item>
 <item>
     <title>资源下载</title>
-    <link>https://newtea.tk/resourceshare/</link>
+    <link>https://newtea.tk/resource-share/</link>
     <pubDate>Sat, 04 Mar 2023 21:40:32 &#43;0800</pubDate>
     <author>Newtea</author>
-    <guid>https://newtea.tk/resourceshare/</guid>
+    <guid>https://newtea.tk/resource-share/</guid>
     <description><![CDATA[资源下载 点击蓝奏云下载 更新内容： 无 更新时间：无]]></description>
 </item>
 <item>
@@ -80,10 +80,10 @@
 </item>
 <item>
     <title>皮·革新茶馆</title>
-    <link>https://newtea.tk/new/</link>
+    <link>https://newtea.tk/newtea/</link>
     <pubDate>Sat, 04 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>Newtea</author>
-    <guid>https://newtea.tk/new/</guid>
+    <guid>https://newtea.tk/newtea/</guid>
     <description><![CDATA[文章陆续迁移中&hellip;]]></description>
 </item>
 </channel>

@@ -19,3 +19,6 @@
 > - 2023-03-05 Add valine comment system, fix missing pages
 > - 2023-03-04 Relocate some articles and modify the subject content
 > - 2023-03-02 Website Rebuild with HUGO
+> # music
+> {{< music server="netease" type="song" id="1868553" >}}
+>
