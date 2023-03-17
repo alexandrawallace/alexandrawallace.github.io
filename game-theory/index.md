@@ -2,7 +2,7 @@
 
 
 ## 博弈论 - 简说
-{{< figure src="/images/John-von-Neumann.jpg" title="John von Neumann">}}
+{{< figure src="/images/John-von-Neumann.jpg" width="30%" title="John von Neumann">}}
 
 ### 【茶】
 

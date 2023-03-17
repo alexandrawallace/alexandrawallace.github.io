@@ -3,7 +3,7 @@
 
 ## - 地下丝绒
 
-{{<figure src="/images/The-Velvet-Underground.jpg" title="The Velvet Underground">}}
+{{<figure src="/images/The-Velvet-Underground.jpg" width="50%" title="The Velvet Underground">}}
 ### 介绍
 
 The Velvet Underground 是一个在1964年于纽约成立的乐队  

@@ -16,7 +16,7 @@
 【界面】
 
 * 安卓  
-{{< figure src="/images/NO1app.png" title="乐看APP">}}
+{{< figure src="/images/NO1app.png" width="60%" title="乐看APP">}}
 
 【说明】
 
