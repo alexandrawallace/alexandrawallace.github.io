@@ -1,7 +1,5 @@
-# flask上传下载
+# flask
 
-
-# flask上传下载文件
 
 ## flask简单的上传下载实现
 

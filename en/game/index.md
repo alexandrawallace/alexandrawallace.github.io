@@ -1,10 +1,10 @@
-# 逮住那只猫!
+# catch the cat !
 
-## 游戏规则
+## Game rules
 
-1. 点击小圆点，围住小猫。
-2. 你点击一次，小猫走一次。
-3. 直到你把小猫围住（赢），或者小猫走到边界并逃跑（输）。
+1. Click the dots to surround the kittens.
+2. You click once, and the cat walks once.
+3. Until you surround the kitten (win), or the kitten goes to the border and runs away (lose).
 
 ---
 
