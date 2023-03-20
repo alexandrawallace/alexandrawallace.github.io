@@ -4,7 +4,15 @@
         <link>https://newtea.tk/posts/</link>
         <description>所有文章 | 皮革新茶馆</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>newtea@newtea.tk (皮革新茶馆)</managingEditor>
-            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 16 Mar 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://newtea.tk/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 20 Mar 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://newtea.tk/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>vue前端词云图实现</title>
+    <link>https://newtea.tk/vue-front-worldcloud/</link>
+    <pubDate>Mon, 20 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/vue-front-worldcloud/</guid>
+    <description><![CDATA[使用到的技术 Vue3、Vite、jqcloud2、jquery、randomcolor 生成词云图方法 1、通过jquery、jqcloud2来]]></description>
+</item>
+<item>
     <title>replit搭建xray</title>
     <link>https://newtea.tk/replit-node/</link>
     <pubDate>Wed, 15 Mar 2023 00:00:00 &#43;0000</pubDate>
@@ -75,14 +83,6 @@
     <author>Newtea</author>
     <guid>https://newtea.tk/web-share/</guid>
     <description><![CDATA[网站收藏分享 ※※ 更新日志：2022.12.16 ※※ 你可用通过快捷键 Ctrl + F 快速进入搜索模式 ※※ 你可以输入相关关键字进行搜索，如：视频 ※※ 文件名]]></description>
-</item>
-<item>
-    <title>资源下载</title>
-    <link>https://newtea.tk/resource-share/</link>
-    <pubDate>Sat, 04 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>Newtea</author>
-    <guid>https://newtea.tk/resource-share/</guid>
-    <description><![CDATA[资源下载 点击蓝奏云下载 更新内容： 无 更新时间：无]]></description>
 </item>
 </channel>
 </rss>
