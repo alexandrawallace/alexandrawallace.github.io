@@ -2,6 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://newtea.tk/chatgpt-deploy/</loc><lastmod>2023-03-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://newtea.tk/vue-front-worldcloud/</loc><lastmod>2023-03-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://newtea.tk/replit-node/</loc><lastmod>2023-03-16T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://newtea.tk/book-1984/</loc><lastmod>2023-03-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
@@ -22,7 +23,7 @@
             <loc>https://newtea.tk/newtea/</loc><lastmod>2023-03-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url><url>
             <loc>https://newtea.tk/web-share/</loc><lastmod>2023-03-18T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://newtea.tk/resource-share/</loc><lastmod>2023-03-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://newtea.tk/categories/</loc><lastmod>2023-03-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://newtea.tk/categories/</loc><lastmod>2023-03-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://newtea.tk/en/categories/"
@@ -31,9 +32,10 @@
                     hreflang="zh-cn"
                     href="https://newtea.tk/categories/"
                     /></url><url>
-            <loc>https://newtea.tk/categories/it/</loc><lastmod>2023-03-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://newtea.tk/tags/jqcloud/</loc><lastmod>2023-03-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://newtea.tk/posts/</loc><lastmod>2023-03-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://newtea.tk/tags/chatgpt/</loc><lastmod>2023-03-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://newtea.tk/categories/it/</loc><lastmod>2023-03-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://newtea.tk/tags/openai/</loc><lastmod>2023-03-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://newtea.tk/posts/</loc><lastmod>2023-03-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://newtea.tk/en/posts/"
@@ -42,7 +44,7 @@
                     hreflang="zh-cn"
                     href="https://newtea.tk/posts/"
                     /></url><url>
-            <loc>https://newtea.tk/tags/</loc><lastmod>2023-03-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://newtea.tk/tags/</loc><lastmod>2023-03-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://newtea.tk/en/tags/"
@@ -51,10 +53,8 @@
                     hreflang="zh-cn"
                     href="https://newtea.tk/tags/"
                     /></url><url>
-            <loc>https://newtea.tk/tags/vue/</loc><lastmod>2023-03-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://newtea.tk/tags/vue3/</loc><lastmod>2023-03-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://newtea.tk/tags/%E8%AF%8D%E4%BA%91/</loc><lastmod>2023-03-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://newtea.tk/</loc><lastmod>2023-03-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>https://newtea.tk/tags/vercel/</loc><lastmod>2023-03-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://newtea.tk/</loc><lastmod>2023-03-21T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://newtea.tk/en/"
@@ -63,6 +63,10 @@
                     hreflang="zh-cn"
                     href="https://newtea.tk/"
                     /></url><url>
+            <loc>https://newtea.tk/tags/jqcloud/</loc><lastmod>2023-03-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://newtea.tk/tags/vue/</loc><lastmod>2023-03-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://newtea.tk/tags/vue3/</loc><lastmod>2023-03-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://newtea.tk/tags/%E8%AF%8D%E4%BA%91/</loc><lastmod>2023-03-20T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://newtea.tk/excel-knowledge/</loc><lastmod>2023-03-16T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
