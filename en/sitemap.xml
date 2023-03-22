@@ -38,6 +38,24 @@
                     hreflang="en"
                     href="https://newtea.tk/en/"
                     /></url><url>
+            <loc>https://newtea.tk/en/deploy-chat-two/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://newtea.tk/deploy-chat-two/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://newtea.tk/en/deploy-chat-two/"
+                    /></url><url>
+            <loc>https://newtea.tk/en/deploy-chat/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+                        rel="alternate"
+                        hreflang="zh-cn"
+                        href="https://newtea.tk/deploy-chat/"
+                        /><xhtml:link
+                    rel="alternate"
+                    hreflang="en"
+                    href="https://newtea.tk/en/deploy-chat/"
+                    /></url><url>
             <loc>https://newtea.tk/en/game/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="zh-cn"

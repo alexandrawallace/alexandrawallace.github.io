@@ -4,9 +4,25 @@
         <link>https://newtea.tk/</link>
         <description>皮·革新茶馆</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>newtea@newtea.tk (皮革新茶馆)</managingEditor>
-            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 20 Mar 2023 00:00:00 &#43;0000</lastBuildDate>
+            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 22 Mar 2023 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://newtea.tk/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Railway部署ChatGPT</title>
+    <link>https://newtea.tk/deploy-chat/</link>
+    <pubDate>Wed, 22 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/deploy-chat/</guid>
+    <description><![CDATA[简介 本文主要介绍Railway免费部署一个网页版的ChatGPT 可用OpenAI官方提供的API keys 可用access_token 准备条件 API keys 点]]></description>
+</item>
+<item>
+    <title>Vercel部署ChatGPT</title>
+    <link>https://newtea.tk/deploy-chat-two/</link>
+    <pubDate>Tue, 21 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/deploy-chat-two/</guid>
+    <description><![CDATA[简介 本文主要介绍Vercel免费部署一个网页版的ChatGPT 准备条件 API keys 点击获取 点击 Create new secret key 复制保存 Github账号 点击注册 Vercel账]]></description>
+</item>
+<item>
     <title>vue前端词云图实现</title>
     <link>https://newtea.tk/vue-front-worldcloud/</link>
     <pubDate>Mon, 20 Mar 2023 00:00:00 &#43;0000</pubDate>
@@ -23,14 +39,6 @@
     <description><![CDATA[前提条件 一个邮箱账户 注意 本文介绍的技术仅供学习交流、参考，请勿滥用或违规使用 步骤 进入Replit的官网 完成账号的注册、新手指引直接可以跳过 获]]></description>
 </item>
 <item>
-    <title>《一九八四》</title>
-    <link>https://newtea.tk/book-1984/</link>
-    <pubDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>Newtea</author>
-    <guid>https://newtea.tk/book-1984/</guid>
-    <description><![CDATA[《一九八四》 George_Orwell 【简介】 《一九八四》作者：乔治·奥威尔（这本书已有上映的电影） 在中国，这本书在1980年代末还是一本禁书，现在是被允许出版的，]]></description>
-</item>
-<item>
     <title>Python知识汇总</title>
     <link>https://newtea.tk/python-knowledge/</link>
     <pubDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</pubDate>
@@ -45,6 +53,14 @@
     <author>Newtea</author>
     <guid>https://newtea.tk/free-app/</guid>
     <description><![CDATA[No.1 乐看视频 下载点击：官方链接 【介绍】 乐看视频APP，所有资源均由搜索引擎检索于公开网络，通过爬虫获取网络资源 官方标语：希望你看的每一部电影,]]></description>
+</item>
+<item>
+    <title>《一九八四》</title>
+    <link>https://newtea.tk/book-1984/</link>
+    <pubDate>Sat, 04 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/book-1984/</guid>
+    <description><![CDATA[《一九八四》 George_Orwell 【简介】 《一九八四》作者：乔治·奥威尔（这本书已有上映的电影） 在中国，这本书在1980年代末还是一本禁书，现在是被允许出版的，]]></description>
 </item>
 <item>
     <title>flask</title>
@@ -69,22 +85,6 @@
     <author>Newtea</author>
     <guid>https://newtea.tk/game-theory/</guid>
     <description><![CDATA[博弈论 - 简说 John von Neumann 【茶】 博弈论，生活处处都是博弈 就好比过个马路都与博弈论紧密相关， 假设现在你在过马路，一辆汽车行驶过来，司机觉着你会冲过去，]]></description>
-</item>
-<item>
-    <title>皮·革新茶馆</title>
-    <link>https://newtea.tk/newtea/</link>
-    <pubDate>Sat, 04 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>Newtea</author>
-    <guid>https://newtea.tk/newtea/</guid>
-    <description><![CDATA[文章陆续迁移中&hellip;]]></description>
-</item>
-<item>
-    <title>网站分享</title>
-    <link>https://newtea.tk/web-share/</link>
-    <pubDate>Sat, 04 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>Newtea</author>
-    <guid>https://newtea.tk/web-share/</guid>
-    <description><![CDATA[网站收藏分享 ※※ 更新日志：2022.12.16 ※※ 你可用通过快捷键 Ctrl + F 快速进入搜索模式 ※※ 你可以输入相关关键字进行搜索，如：视频 ※※ 文件名]]></description>
 </item>
 </channel>
 </rss>
