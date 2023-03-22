@@ -13,6 +13,7 @@
 > {{< friend name="HUGO" url="https://gohugo.io/" logo="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f…334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg" word="HUGO"  primary-color="default" img-animation="auto_rotate_left" border-animation="led" >}}
 >
 > # update log
+> - 2023-03-22 Add ChatGPT link
 > - 2023-03-18 Modify the directory folding style, Fix the bug that the picture size cannot be set, Add an article title style
 > - 2023-03-09 Add friend link style, fix date display error
 > - 2023-03-08 Add search function, add mini games
