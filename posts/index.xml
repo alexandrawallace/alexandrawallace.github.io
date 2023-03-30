@@ -4,7 +4,15 @@
         <link>https://newtea.tk/posts/</link>
         <description>所有文章 | 皮革新茶馆</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>newtea@newtea.tk (皮革新茶馆)</managingEditor>
-            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 27 Mar 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://newtea.tk/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 30 Mar 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://newtea.tk/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Python多线程请求OpenAI API</title>
+    <link>https://newtea.tk/concurrent-requests-openaiapi/</link>
+    <pubDate>Thu, 30 Mar 2023 00:00:00 &#43;0000</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/concurrent-requests-openaiapi/</guid>
+    <description><![CDATA[通过threading库实现多线程请求 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 import threading import]]></description>
+</item>
+<item>
     <title>Git代理设置</title>
     <link>https://newtea.tk/git-proxy-setting/</link>
     <pubDate>Mon, 27 Mar 2023 00:00:00 &#43;0000</pubDate>
@@ -75,14 +83,6 @@
     <author>Newtea</author>
     <guid>https://newtea.tk/flask/</guid>
     <description><![CDATA[flask简单的上传下载实现 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 from flask import Flask,render_template,request,send_file from werkzeug.utils import secure_filename #创建app app = Flask(__name__) #上传文]]></description>
-</item>
-<item>
-    <title>地下丝绒</title>
-    <link>https://newtea.tk/the-velvet-undergroud/</link>
-    <pubDate>Sat, 04 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>Newtea</author>
-    <guid>https://newtea.tk/the-velvet-undergroud/</guid>
-    <description><![CDATA[- 地下丝绒 The Velvet Underground 介绍 The Velvet Underground 是一个在1964年于纽约成立的乐队 在后世，地下丝绒被认为是在地下音乐、实验音乐和另类摇滚中影响力最大的存在之一。地]]></description>
 </item>
 </channel>
 </rss>

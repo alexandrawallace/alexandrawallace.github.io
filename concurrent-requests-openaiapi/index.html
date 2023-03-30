@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Python多线程请求OpenAI API - 皮革新茶馆</title><meta name="Description" content="Python多线程请求OpenAI API"><meta property="og:title" content="Python多线程请求OpenAI API" />
+<meta property="og:description" content="Python多线程请求OpenAI API" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://newtea.tk/concurrent-requests-openaiapi/" /><meta property="og:image" content="https://newtea.tk/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-03-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-03-30T00:00:00+00:00" /><meta property="og:site_name" content="皮革新茶馆" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://newtea.tk/logo.png"/>
+
+<meta name="twitter:title" content="Python多线程请求OpenAI API"/>
+<meta name="twitter:description" content="Python多线程请求OpenAI API"/>
+<meta name="application-name" content="LoveIt">
+<meta name="apple-mobile-web-app-title" content="LoveIt"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://newtea.tk/concurrent-requests-openaiapi/" /><link rel="prev" href="https://newtea.tk/git-proxy-setting/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"></noscript><link rel="preload" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Python多线程请求OpenAI API",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https:\/\/newtea.tk\/concurrent-requests-openaiapi\/"
+        },"image": ["https:\/\/newtea.tk\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Python, OpenAI, 多线程, API","wordcount":  572 ,
+        "url": "https:\/\/newtea.tk\/concurrent-requests-openaiapi\/","datePublished": "2023-03-30T00:00:00+00:00","dateModified": "2023-03-30T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+            "@type": "Organization",
+            "name": "Newtea","logo": {
+                    "@type": "ImageObject",
+                    "url": "https:\/\/newtea.tk\/images\/avatar.png",
+                    "width":  953 ,
+                    "height":  953 
+                }},"author": {
+                "@type": "Person",
+                "name": "Newtea"
+            },"description": "Python多线程请求OpenAI API"
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="皮革新茶馆"><span class="header-title-pre"><img src='/images/avatar.png' height='50'/></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"><i class='fas fa-book-open fa-lg'></i> 归档 </a><a class="menu-item" href="/tags/"><i class='fas fa-tags fa-lg'></i> 标签 </a><a class="menu-item" href="/categories/"><i class='fas fa-list-alt fa-lg'></i> 分类 </a><a class="menu-item" href="/game"><i class='fas fa-fan fa-spin fa-lg'></i> 游戏 </a><a class="menu-item" href="/about/"><i class = 'fa fa-question-circle fa-lg'></i> 关于 </a><a class="menu-item" href="https://gpt.newtea.tk" title="ChatGPT" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-robot fa-lg'></i> ChatGPT </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索···" id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/concurrent-requests-openaiapi/" selected>简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="皮革新茶馆"><span class="header-title-pre"><img src='/images/avatar.png' height='50'/></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索···" id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title=""><i class='fas fa-book-open fa-lg'></i>归档</a><a class="menu-item" href="/tags/" title=""><i class='fas fa-tags fa-lg'></i>标签</a><a class="menu-item" href="/categories/" title=""><i class='fas fa-list-alt fa-lg'></i>分类</a><a class="menu-item" href="/game" title=""><i class='fas fa-fan fa-spin fa-lg'></i>游戏</a><a class="menu-item" href="/about/" title=""><i class = 'fa fa-question-circle fa-lg'></i>关于</a><a class="menu-item" href="https://gpt.newtea.tk" title="ChatGPT" rel="noopener noreffer" target="_blank"><i class='fa-solid fa-robot fa-lg'></i>ChatGPT</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/concurrent-requests-openaiapi/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Python多线程请求OpenAI API</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="https://newtea.tk" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Newtea</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/it/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>IT</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-03-30">2023-03-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 572 字
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/concurrent-requests-openaiapi/" class="leancloud_visitors" data-flag-title="Python多线程请求OpenAI API">
+                        <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
+                    </span>&nbsp;
+					<a href="#comments" id="post-meta-vcount" title="查看评论">
+						<i class="fas fa-comment fa-fw"></i>&nbsp;<span id="/concurrent-requests-openaiapi/" class="waline-comment-count"></span>&nbsp;条评论
+					</a></div>
+        </div><div class="details toc" id="toc-static"  data-kept="">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#通过threading库实现多线程请求">通过threading库实现多线程请求</a></li>
+    <li><a href="#说明">说明</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h2 id="通过threading库实现多线程请求">通过threading库实现多线程请求</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span><span class="lnt">37
+</span><span class="lnt">38
+</span><span class="lnt">39
+</span><span class="lnt">40
+</span><span class="lnt">41
+</span><span class="lnt">42
+</span><span class="lnt">43
+</span><span class="lnt">44
+</span><span class="lnt">45
+</span><span class="lnt">46
+</span><span class="lnt">47
+</span><span class="lnt">48
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">threading</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">queue</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">openai</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">os</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">time</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 设置 OpenAI API 密钥</span>
+</span></span><span class="line"><span class="cl"><span class="n">openai</span><span class="o">.</span><span class="n">api_key</span> <span class="o">=</span> <span class="s2">&#34;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&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 定义线程处理函数</span>
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">process_data</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">result_queue</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="n">messages</span> <span class="o">=</span> <span class="p">[{</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;role&#34;</span><span class="p">:</span> <span class="s2">&#34;assistant&#34;</span><span class="p">,</span>                
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;content&#34;</span><span class="p">:</span> <span class="n">data</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}]</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># 请求 OpenAI 的 API 接口</span>
+</span></span><span class="line"><span class="cl">    <span class="n">response</span> <span class="o">=</span> <span class="n">openai</span><span class="o">.</span><span class="n">ChatCompletion</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">model</span><span class="o">=</span><span class="s2">&#34;gpt-3.5-turbo-0301&#34;</span><span class="p">,</span>   <span class="c1"># 选择模型，详见 https://platform.openai.com/docs/api-reference/models</span>
+</span></span><span class="line"><span class="cl">    <span class="n">messages</span><span class="o">=</span><span class="n">messages</span><span class="p">,</span>              <span class="c1"># 输入原文</span>
+</span></span><span class="line"><span class="cl">    <span class="n">temperature</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span>            <span class="c1"># 控制结果的随机性，如果希望结果更有创意可以尝试0.9，或者希望有固定结果可以尝试0.0</span>
+</span></span><span class="line"><span class="cl">    <span class="n">max_tokens</span><span class="o">=</span><span class="mi">100</span><span class="p">,</span>             <span class="c1"># 回答文本最大 tokens 数</span>
+</span></span><span class="line"><span class="cl">    <span class="n">top_p</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span>                    <span class="c1"># 一个可用于代替temperature的参数，对应机器学习中nucleus sampling，如果设置0.1意味着只考虑构成前10%概率质量的tokens</span>
+</span></span><span class="line"><span class="cl">    <span class="n">frequency_penalty</span><span class="o">=</span><span class="mf">2.0</span><span class="p">,</span>      <span class="c1"># -2.0~2.0之间的数字，正值会根据新tokens在文本中的现有频率对其进行惩罚，从而降低模型逐字重复同一行的可能性</span>
+</span></span><span class="line"><span class="cl">    <span class="n">presence_penalty</span><span class="o">=</span><span class="mf">0.0</span><span class="p">,</span>        <span class="c1"># -2.0~2.0之间的数字，正值会根据到目前为止是否出现在文本中来惩罚新tokens，从而增加模型谈论新主题的可能性</span>
+</span></span><span class="line"><span class="cl">    <span class="n">stream</span> <span class="o">=</span> <span class="kc">False</span>
+</span></span><span class="line"><span class="cl">    <span class="p">)</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="n">result</span> <span class="o">=</span> <span class="n">response</span><span class="p">[</span><span class="s2">&#34;choices&#34;</span><span class="p">][</span><span class="mi">0</span><span class="p">][</span><span class="s2">&#34;message&#34;</span><span class="p">][</span><span class="s2">&#34;content&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># print(result)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">result_list</span><span class="o">.</span><span class="n">append</span><span class="p">({</span><span class="s1">&#39;data&#39;</span><span class="p">:</span><span class="nb">str</span><span class="p">(</span><span class="n">data</span><span class="p">),</span><span class="s2">&#34;result&#34;</span><span class="p">:</span><span class="nb">str</span><span class="p">(</span><span class="n">result</span><span class="p">)})</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># 将结果存储到队列中</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># result_queue.put((data, result))</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 定义数据列表</span>
+</span></span><span class="line"><span class="cl"><span class="n">data_list</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&#34;输出1&#34;</span><span class="p">,</span> <span class="s2">&#34;输出2&#34;</span><span class="p">,</span> <span class="s2">&#34;输出3&#34;</span><span class="p">,</span> <span class="s2">&#34;输出4&#34;</span><span class="p">,</span> <span class="s2">&#34;输出5&#34;</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 创建队列和结果列表</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># result_queue = queue.Queue()</span>
+</span></span><span class="line"><span class="cl"><span class="n">result_list</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 启动线程</span>
+</span></span><span class="line"><span class="cl"><span class="n">threads</span> <span class="o">=</span> <span class="p">[]</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">data</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">data_list</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">    <span class="c1"># print(data)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">t</span> <span class="o">=</span> <span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="n">process_data</span><span class="p">,</span> <span class="n">args</span><span class="o">=</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">result_queue</span><span class="p">))</span>
+</span></span><span class="line"><span class="cl">    <span class="n">threads</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">t</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="n">t</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 等待所有线程结束</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">t</span> <span class="ow">in</span> <span class="n">threads</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="n">t</span><span class="o">.</span><span class="n">join</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 队列有存入有问题不写了</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 按照列表顺序返回结果列表</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">result_list</span><span class="p">)</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="说明">说明</h2>
+<ul>
+<li>Newtea</li>
+</ul>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2023-03-30</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            
+                            <i class="far fa-copyright fa-fw" aria-hidden="true"></i>皮革新茶馆
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://newtea.tk/concurrent-requests-openaiapi/" data-title="Python多线程请求OpenAI API" data-hashtags="Python,OpenAI,多线程,API"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://newtea.tk/concurrent-requests-openaiapi/" data-hashtag="Python"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://newtea.tk/concurrent-requests-openaiapi/" data-title="Python多线程请求OpenAI API"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://newtea.tk/concurrent-requests-openaiapi/" data-title="Python多线程请求OpenAI API"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@7.3.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://newtea.tk/concurrent-requests-openaiapi/" data-title="Python多线程请求OpenAI API"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/python/">Python</a>,&nbsp;<a href="/tags/openai/">OpenAI</a>,&nbsp;<a href="/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/">多线程</a>,&nbsp;<a href="/tags/api/">API</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/git-proxy-setting/" class="prev" rel="prev" title="Git代理设置"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>Git代理设置</a></div>
+</div>
+<div id="comments"><div id="waline"></div>
+			<script src='https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js'></script>
+
+			<script>
+		    	new Waline({
+		    	  el: '#waline',
+				  meta: ["nick","mail","link"],
+		    	  requiredMeta: ["nick","mail"],
+		    	  login: "force",
+				  placeholder: "注册登录，悦你所想...",
+		    	  serverURL: "https://www.newtea.ga",
+		    	  avatarCDN: "https://sdn.geekzu.org/avatar",
+		    	  pageSize:  20 ,
+		    	  avatar: "retro",
+		    	  lang: "zh-CN",
+				  visitor:  true ,
+				  highlight:  true ,
+				  uploadImage:  false 				  
+		    	});
+		    </script></div></article></div>
+            </main><footer class="footer">
+        <div class="footer-container">
+            <div class="footer-line">
+                <span id="run-time"></span>
+            </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="https://www.newtea.tk" target="_blank">皮革新茶馆</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/css/lightgallery-bundle.min.css"><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/autocomplete.js@0.38.1/dist/autocomplete.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/algoliasearch@4.13.1/dist/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.2/lazysizes.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/lightgallery.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lightgallery@2.5.0/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sharer.js@0.5.1/sharer.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{},"lightgallery":true,"search":{"algoliaAppID":"GZRBY7IKI8","algoliaIndex":"newtea","algoliaSearchKey":"39046e6a94fff2fb4fbda704d4fa5ed0","highlightTag":"em","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@2.1.3/dist/jquery.min.js"></script><script type="text/javascript" src="/js/custom.js"></script></body>
+</html>
