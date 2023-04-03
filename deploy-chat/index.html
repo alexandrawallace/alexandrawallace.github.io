@@ -9,7 +9,7 @@
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://newtea.tk/deploy-chat/" /><meta property="og:image" content="https://newtea.tk/logo.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-03-22T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-03-23T00:00:00+00:00" /><meta property="og:site_name" content="皮革新茶馆" />
+<meta property="article:modified_time" content="2023-04-03T00:00:00+00:00" /><meta property="og:site_name" content="皮革新茶馆" />
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://newtea.tk/logo.png"/>
 
@@ -29,8 +29,8 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/newtea.tk\/deploy-chat\/"
-        },"image": ["https:\/\/newtea.tk\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "ChatGPT, OpenAI, Railway","wordcount":  381 ,
-        "url": "https:\/\/newtea.tk\/deploy-chat\/","datePublished": "2023-03-22T00:00:00+00:00","dateModified": "2023-03-23T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
+        },"image": ["https:\/\/newtea.tk\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "ChatGPT, OpenAI, Railway","wordcount":  448 ,
+        "url": "https:\/\/newtea.tk\/deploy-chat\/","datePublished": "2023-03-22T00:00:00+00:00","dateModified": "2023-04-03T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "Newtea","logo": {
                     "@type": "ImageObject",
@@ -114,7 +114,7 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Railway部署ChatGPT</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://newtea.tk" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Newtea</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/it/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>IT</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-03-22">2023-03-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 381 字
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-03-22">2023-03-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 448 字
                 <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;<span id="/deploy-chat/" class="leancloud_visitors" data-flag-title="Railway部署ChatGPT">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;
@@ -137,6 +137,7 @@
         <li><a href="#点击给定的域名访问">点击给定的域名访问</a></li>
       </ul>
     </li>
+    <li><a href="#问题解决">问题解决</a></li>
     <li><a href="#说明">说明</a></li>
   </ul>
 </nav></div>
@@ -207,6 +208,29 @@
 </figure>
 </li>
 </ul>
+<h2 id="问题解决">问题解决</h2>
+<p>遇到如下错误：
+undefined
+[fetch failed]
+尝试更换调用的Web API代理地址
+如上教程没有填写该变量，所以需要添加变量如下：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-markdown" data-lang="markdown"><span class="line"><span class="cl"><span class="gh"># 变量名
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>API_REVERSE_PROXY
+</span></span><span class="line"><span class="cl"><span class="gh"># 变量
+</span></span></span><span class="line"><span class="cl"><span class="gh"></span>https://api.pawan.krd/backend-api/conversation
+</span></span></code></pre></td></tr></table>
+</div>
+</div><figure><img src="/images/gpt-deploy-web/varialbles-setting-one.png" width="60%"/>
+</figure>
+
 <h2 id="说明">说明</h2>
 <ul>
 <li>以上内容均以学习参考之用，请勿滥用。</li>
@@ -216,7 +240,7 @@
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
-                <span>更新于 2023-03-23</span>
+                <span>更新于 2023-04-03</span>
             </div></div>
         <div class="post-info-line">
             <div class="post-info-md"><span>

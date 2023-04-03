@@ -32,6 +32,19 @@
 ### 点击给定的域名访问
 - 部署成功结果如下
 {{<figure src="/images/gpt-deploy-web/four.png" width="80%">}}
+## 问题解决
+遇到如下错误：
+undefined
+[fetch failed]
+尝试更换调用的Web API代理地址
+如上教程没有填写该变量，所以需要添加变量如下：
+```markdown
+# 变量名
+API_REVERSE_PROXY
+# 变量
+https://api.pawan.krd/backend-api/conversation
+```
+{{<figure src="/images/gpt-deploy-web/varialbles-setting-one.png" width="60%">}}
 ## 说明
 - 以上内容均以学习参考之用，请勿滥用。
 - 感谢：[Chanzhaoyu](https://github.com/Chanzhaoyu/chatgpt-web)
