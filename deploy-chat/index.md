@@ -36,7 +36,7 @@
 遇到如下错误：
 undefined
 [fetch failed]
-尝试更换调用的Web API代理地址
+尝试更换调用的Web API代理地址 <br>
 如上教程没有填写该变量，所以需要添加变量如下：
 ```markdown
 # 变量名
@@ -45,6 +45,7 @@ API_REVERSE_PROXY
 https://api.pawan.krd/backend-api/conversation
 ```
 {{<figure src="/images/gpt-deploy-web/varialbles-setting-one.png" width="60%">}}
+- 更改完成之后直接到项目管理面板重新部署，Redeploy
 ## 说明
 - 以上内容均以学习参考之用，请勿滥用。
 - 感谢：[Chanzhaoyu](https://github.com/Chanzhaoyu/chatgpt-web)
