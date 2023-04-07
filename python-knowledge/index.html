@@ -29,7 +29,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/newtea.tk\/python-knowledge\/"
-        },"image": ["https:\/\/newtea.tk\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Python, IT","wordcount":  478 ,
+        },"image": ["https:\/\/newtea.tk\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "Python, IT","wordcount":  615 ,
         "url": "https:\/\/newtea.tk\/python-knowledge\/","datePublished": "2023-03-10T00:00:00+00:00","dateModified": "2023-04-07T00:00:00+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "Newtea","logo": {
@@ -114,8 +114,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Python知识汇总</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://newtea.tk" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Newtea</a></span>&nbsp;<span class="post-category">收录于 <a href="/categories/it/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>IT</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-03-10">2023-03-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 478 字
-                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 1 分钟&nbsp;<span id="/python-knowledge/" class="leancloud_visitors" data-flag-title="Python知识汇总">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2023-03-10">2023-03-10</time>&nbsp;<i class="fas fa-pencil-alt fa-fw"></i>&nbsp;约 615 字
+                <i class="far fa-clock fa-fw"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/python-knowledge/" class="leancloud_visitors" data-flag-title="Python知识汇总">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;
 					<a href="#comments" id="post-meta-vcount" title="查看评论">
@@ -144,6 +144,7 @@
         <li><a href="#使用isnull-取空值">使用isnull() 取空值</a></li>
       </ul>
     </li>
+    <li><a href="#python连接数据库">Python连接数据库</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><blockquote>
@@ -299,6 +300,55 @@
 </span></span><span class="line"><span class="cl"><span class="n">df_null</span> <span class="o">=</span> <span class="n">df</span><span class="p">[</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;col_name&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">()]</span>
 </span></span><span class="line"><span class="cl"><span class="c1"># 取到col_name_one或col_name_two为空的所有数据</span>
 </span></span><span class="line"><span class="cl"><span class="n">df_null</span> <span class="o">=</span> <span class="n">df</span><span class="p">[(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;col_name_one&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">())</span> <span class="o">|</span> <span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="s1">&#39;col_name_one&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isnull</span><span class="p">())]</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="python连接数据库">Python连接数据库</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># 导入pymysql库</span>
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="nn">pymysql</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 创建连接</span>
+</span></span><span class="line"><span class="cl"><span class="n">db</span> <span class="o">=</span> <span class="n">pymysql</span><span class="o">.</span><span class="n">connect</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="n">host</span><span class="o">=</span><span class="s2">&#34;127.0.0.1&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">user</span><span class="o">=</span><span class="s2">&#34;username&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">password</span><span class="o">=</span><span class="s2">&#34;password&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">database</span><span class="o">=</span><span class="s2">&#34;database&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="n">port</span><span class="o">=</span><span class="mi">3360</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 创建游标，对数据库进行操作</span>
+</span></span><span class="line"><span class="cl"><span class="n">cursor</span> <span class="o">=</span> <span class="n">db</span><span class="o">.</span><span class="n">cursor</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 查询某张表格的数据，显示一条</span>
+</span></span><span class="line"><span class="cl"><span class="n">sql</span> <span class="o">=</span> <span class="s2">&#34;SELECT * FROM table_name LIMIT 1&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 执行sql</span>
+</span></span><span class="line"><span class="cl"><span class="n">cursor</span><span class="o">.</span><span class="n">execute</span><span class="p">(</span><span class="n">sql</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 获取查询后的数据</span>
+</span></span><span class="line"><span class="cl"><span class="n">result</span> <span class="o">=</span> <span class="n">cursor</span><span class="o">.</span><span class="n">fetchall</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># 遍历输出，row类型是元组</span>
+</span></span><span class="line"><span class="cl"><span class="k">for</span> <span class="n">row</span> <span class="ow">in</span> <span class="n">result</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">	<span class="nb">print</span><span class="p">(</span><span class="n">row</span><span class="p">)</span>
 </span></span></code></pre></td></tr></table>
 </div>
 </div></div><div class="post-footer" id="post-footer">

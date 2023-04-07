@@ -75,3 +75,27 @@ df_null = df[df['col_name'].isnull()]
 # 取到col_name_one或col_name_two为空的所有数据
 df_null = df[(df['col_name_one'].isnull()) | (df['col_name_one'].isnull())]
 ```
+## Python连接数据库
+```python
+# 导入pymysql库
+import pymysql
+# 创建连接
+db = pymysql.connect(
+    host="127.0.0.1",
+    user="username",
+    password="password",
+    database="database",
+    port=3360
+)
+# 创建游标，对数据库进行操作
+cursor = db.cursor()
+# 查询某张表格的数据，显示一条
+sql = "SELECT * FROM table_name LIMIT 1"
+# 执行sql
+cursor.execute(sql)
+# 获取查询后的数据
+result = cursor.fetchall()
+# 遍历输出，row类型是元组
+for row in result:
+	print(row)
+```
