@@ -60,7 +60,7 @@
     <pubDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</pubDate>
     <author>Newtea</author>
     <guid>https://newtea.tk/python-knowledge/</guid>
-    <description><![CDATA[字典 dictionary 1 2 3 4 5 6 7 8 9 # 遍历字典 for k,v in dict_test.items(): print(k,v) for key in dict_test.keys(): print(k) for value in dict_test.values(): print(k) for key in dict_test: print(key) 列表 list 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 # 获取最大频繁项 list_test]]></description>
+    <description><![CDATA[All Python knowledge 字典 dictionary 1 2 3 4 5 6 7 8 9 # 遍历字典 for k,v in dict_test.items(): print(k,v) for key in dict_test.keys(): print(k) for value in dict_test.values(): print(k) for key in dict_test: print(key) 列表 list 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 # 获取最大频]]></description>
 </item>
 <item>
     <title>免费影视APP</title>

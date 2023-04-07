@@ -1,6 +1,6 @@
 # Python知识汇总
 
-
+> All Python knowledge
 ### 字典 dictionary
 
 ```python
@@ -13,11 +13,8 @@ for value in dict_test.values():
 	print(k)
 for key in dict_test:
 	print(key)
-
 ```
-
 ### 列表 list
-
 ```python
 # 获取最大频繁项
 list_test = [33,33,1,33,1,2]
@@ -41,9 +38,7 @@ print(list2)
 for i, j in zip(list1,list2):
 	print(i,j)
 ```
-
 ### lower()忽略大小写
-
 ```python
 str_one="abCD"
 str_two="ABcd"
@@ -53,6 +48,7 @@ print(str_two.lower()==str_one.lower())
 ```python
 DataFrame.sort_values(by='##',axis=0,ascending=True inplace=False, na_position='last')  # 列，升降排序，替换，缺失值
 ```
+
 ## Pandas相关
 ### isin()
 ```python
@@ -63,8 +59,19 @@ df = pd.DataFrame(data)
 not_list_df = df[~df['num'].isin(lst)] #~为反向取值 
 in_list_df = df[df['num'].isin(lst)]
 ```
-### 日志
-
-* 最近更新：字典、列表
-* 日期：2023-2-19
-
+### 使用fillna() 将空值替换为空字符串
+- 一般来说当后端返回json格式数据时，空值NaN并不方便处理，所以要转换成空字符串
+```python
+df.fillna('', inplace=True)  # 替换空字符串
+```
+### 使用dropna() 去除空值
+```python
+df.dropna(subset=['col_name'],inplace=True)  # inplace 是否直接覆盖原表
+```
+### 使用isnull() 取空值
+```python
+# 取到col_name为空的所有数据
+df_null = df[df['col_name'].isnull()]
+# 取到col_name_one或col_name_two为空的所有数据
+df_null = df[(df['col_name_one'].isnull()) | (df['col_name_one'].isnull())]
+```
