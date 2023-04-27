@@ -1,6 +1,7 @@
 # Python知识汇总
 
 > All Python knowledge
+## Python关键字
 ### 字典 dictionary
 
 ```python
@@ -98,4 +99,16 @@ result = cursor.fetchall()
 # 遍历输出，row类型是元组
 for row in result:
 	print(row)
+```
+## requests库
+### 超时设置
+```python
+import requests
+import json
+url = "xxx"  # 请求链接
+data = {"data":"data"} # 请求参数
+timeout = (1,1) # 连接超时/读取超时 
+timeout = 1 # 通用超时，但是有时候会不起效果
+# 请求
+response = requests.post(url,data=json.dumps(data),timeout=timeout).json()
 ```
