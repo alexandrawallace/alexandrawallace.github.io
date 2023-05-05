@@ -72,8 +72,8 @@ def CPU_or_GPU():
     return 0
 # 调用
 msg = {
-  "1":"GPU显存不足"
-  "2":"CPU内存不足"
+  1:"GPU显存不足"
+  2:"CPU内存不足"
 }
 code_id =  CPU_or_GPU()
 # code_id 为0时则不进入判断
