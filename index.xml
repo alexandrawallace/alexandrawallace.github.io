@@ -4,9 +4,17 @@
         <link>https://newtea.tk/</link>
         <description>皮·革新茶馆</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>newtea@newtea.tk (皮革新茶馆)</managingEditor>
-            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 30 Mar 2023 00:00:00 &#43;0000</lastBuildDate>
+            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 05 May 2023 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://newtea.tk/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>Python中CPU、GPU判断</title>
+    <link>https://newtea.tk/python-cpu-gpu/</link>
+    <pubDate>Fri, 05 May 2023 00:00:00 &#43;0000</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/python-cpu-gpu/</guid>
+    <description><![CDATA[判断代码运行环境 1 2 3 4 5 6 7 8 import torch # 函数 def CPU_or_GPU(): device = torch.device(&#39;cuda&#39; if torch.cuda.is_available() else &#39;cpu&#39;) if device.type == &#39;cuda&#39;: return &#39;GPU&#39; else: return &#39;CPU&#39; 判断运行环境的内存/显存容量 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17]]></description>
+</item>
+<item>
     <title>Python多线程请求OpenAI API</title>
     <link>https://newtea.tk/concurrent-requests-openaiapi/</link>
     <pubDate>Thu, 30 Mar 2023 00:00:00 &#43;0000</pubDate>
@@ -77,14 +85,6 @@
     <author>Newtea</author>
     <guid>https://newtea.tk/book-1984/</guid>
     <description><![CDATA[《一九八四》 George_Orwell 【简介】 《一九八四》作者：乔治·奥威尔（这本书已有上映的电影） 在中国，这本书在1980年代末还是一本禁书，现在是被允许出版的，]]></description>
-</item>
-<item>
-    <title>flask</title>
-    <link>https://newtea.tk/flask/</link>
-    <pubDate>Sat, 04 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>Newtea</author>
-    <guid>https://newtea.tk/flask/</guid>
-    <description><![CDATA[flask简单的上传下载实现 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 from flask import Flask,render_template,request,send_file from werkzeug.utils import secure_filename #创建app app = Flask(__name__) #上传文]]></description>
 </item>
 </channel>
 </rss>

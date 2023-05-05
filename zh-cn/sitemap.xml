@@ -2,6 +2,7 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://newtea.tk/python-cpu-gpu/</loc><lastmod>2023-05-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
             <loc>https://newtea.tk/concurrent-requests-openaiapi/</loc><lastmod>2023-03-30T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://newtea.tk/git-proxy-setting/</loc><lastmod>2023-03-28T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://newtea.tk/deploy-chat/</loc><lastmod>2023-04-03T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority><xhtml:link
@@ -42,8 +43,7 @@
             <loc>https://newtea.tk/newtea/</loc><lastmod>2023-03-04T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://newtea.tk/web-share/</loc><lastmod>2023-03-18T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://newtea.tk/resource-share/</loc><lastmod>2023-03-10T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://newtea.tk/tags/api/</loc><lastmod>2023-03-30T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://newtea.tk/categories/</loc><lastmod>2023-04-27T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+            <loc>https://newtea.tk/categories/</loc><lastmod>2023-05-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://newtea.tk/en/categories/"
@@ -52,9 +52,10 @@
                     hreflang="zh-cn"
                     href="https://newtea.tk/categories/"
                     /></url><url>
-            <loc>https://newtea.tk/categories/it/</loc><lastmod>2023-04-27T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://newtea.tk/tags/openai/</loc><lastmod>2023-04-03T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
-            <loc>https://newtea.tk/posts/</loc><lastmod>2023-04-27T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+            <loc>https://newtea.tk/tags/cpu/</loc><lastmod>2023-05-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://newtea.tk/tags/gpu/</loc><lastmod>2023-05-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://newtea.tk/categories/it/</loc><lastmod>2023-05-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://newtea.tk/posts/</loc><lastmod>2023-05-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://newtea.tk/en/posts/"
@@ -63,8 +64,8 @@
                     hreflang="zh-cn"
                     href="https://newtea.tk/posts/"
                     /></url><url>
-            <loc>https://newtea.tk/tags/python/</loc><lastmod>2023-04-27T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url><url>
-            <loc>https://newtea.tk/tags/</loc><lastmod>2023-04-27T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+            <loc>https://newtea.tk/tags/python/</loc><lastmod>2023-05-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>https://newtea.tk/tags/</loc><lastmod>2023-05-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://newtea.tk/en/tags/"
@@ -73,8 +74,7 @@
                     hreflang="zh-cn"
                     href="https://newtea.tk/tags/"
                     /></url><url>
-            <loc>https://newtea.tk/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc><lastmod>2023-03-30T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://newtea.tk/</loc><lastmod>2023-04-27T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.9</priority><xhtml:link
+            <loc>https://newtea.tk/</loc><lastmod>2023-05-05T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
                         href="https://newtea.tk/en/"
@@ -83,6 +83,9 @@
                     hreflang="zh-cn"
                     href="https://newtea.tk/"
                     /></url><url>
+            <loc>https://newtea.tk/tags/api/</loc><lastmod>2023-03-30T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://newtea.tk/tags/openai/</loc><lastmod>2023-04-03T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url><url>
+            <loc>https://newtea.tk/tags/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</loc><lastmod>2023-03-30T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://newtea.tk/tags/git/</loc><lastmod>2023-03-28T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://newtea.tk/tags/github/</loc><lastmod>2023-03-28T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
             <loc>https://newtea.tk/tags/%E4%BB%A3%E7%90%86%E8%AE%BE%E7%BD%AE/</loc><lastmod>2023-03-28T00:00:00&#43;00:00</lastmod><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
