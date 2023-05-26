@@ -23,22 +23,22 @@
 
 ### 如下对应每个地区不同的配置
 1. 打开链接 → 复制所有内容 → 粘贴到配置
-**日本**
+- **日本**
 ```
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKTok-JP.conf
 ```
 
-**台湾**
+- **台湾**
 ```
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKTok-TW.conf
 ```
 
-**韩国**
+- **韩国**
 ```
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKTok-KR.conf
 ```
 
-**美国**
+- **美国**
 ```
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKTok-US.conf
 ```
