@@ -4,7 +4,15 @@
         <link>https://newtea.tk/posts/</link>
         <description>所有文章 | 皮革新茶馆</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>newtea@newtea.tk (皮革新茶馆)</managingEditor>
-            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 05 May 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://newtea.tk/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 26 May 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://newtea.tk/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>TikTok免拔卡使用</title>
+    <link>https://newtea.tk/tiktok-use/</link>
+    <pubDate>Fri, 26 May 2023 00:00:00 &#43;0000</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/tiktok-use/</guid>
+    <description><![CDATA[- 开始之前 支持: iOS 自备 Shadowrocket 下载：在 美区/日区/台区 App Store 搜索 TikTok 并下载 （港区已停止运营） 特别注意 为什么要先卸载 TikTok，TikTok 会在第一次]]></description>
+</item>
+<item>
     <title>Python中CPU、GPU判断</title>
     <link>https://newtea.tk/python-cpu-gpu/</link>
     <pubDate>Fri, 05 May 2023 00:00:00 &#43;0000</pubDate>
@@ -75,14 +83,6 @@
     <author>Newtea</author>
     <guid>https://newtea.tk/free-app/</guid>
     <description><![CDATA[No.1 乐看视频 下载点击：官方链接 【介绍】 乐看视频APP，所有资源均由搜索引擎检索于公开网络，通过爬虫获取网络资源 官方标语：希望你看的每一部电影,]]></description>
-</item>
-<item>
-    <title>《一九八四》</title>
-    <link>https://newtea.tk/book-1984/</link>
-    <pubDate>Sat, 04 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>Newtea</author>
-    <guid>https://newtea.tk/book-1984/</guid>
-    <description><![CDATA[《一九八四》 George_Orwell 【简介】 《一九八四》作者：乔治·奥威尔（这本书已有上映的电影） 在中国，这本书在1980年代末还是一本禁书，现在是被允许出版的，]]></description>
 </item>
 </channel>
 </rss>
