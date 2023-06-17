@@ -4,7 +4,15 @@
         <link>https://newtea.tk/posts/</link>
         <description>所有文章 | 皮革新茶馆</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>newtea@newtea.tk (皮革新茶馆)</managingEditor>
-            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 26 May 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://newtea.tk/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>newtea@newtea.tk (皮革新茶馆)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 17 Jun 2023 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://newtea.tk/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>GitHub上传大文件</title>
+    <link>https://newtea.tk/github-upload-bigdata/</link>
+    <pubDate>Sat, 17 Jun 2023 00:00:00 &#43;0000</pubDate>
+    <author>Newtea</author>
+    <guid>https://newtea.tk/github-upload-bigdata/</guid>
+    <description><![CDATA[前言 *** GitHub ***托管代码提供许多便利，有时候需要上传大文件，会被提示超过100M无法上传的情况，这时候需要用到git-lfs来帮助我们上传大文]]></description>
+</item>
+<item>
     <title>TikTok免拔卡使用</title>
     <link>https://newtea.tk/tiktok-use/</link>
     <pubDate>Fri, 26 May 2023 00:00:00 &#43;0000</pubDate>
@@ -75,14 +83,6 @@
     <author>Newtea</author>
     <guid>https://newtea.tk/python-knowledge/</guid>
     <description><![CDATA[All Python knowledge Python关键字 字典 dictionary 1 2 3 4 5 6 7 8 9 # 遍历字典 for k,v in dict_test.items(): print(k,v) for key in dict_test.keys(): print(k) for value in dict_test.values(): print(k) for key in dict_test: print(key) 列表 list 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18]]></description>
-</item>
-<item>
-    <title>免费影视APP</title>
-    <link>https://newtea.tk/free-app/</link>
-    <pubDate>Fri, 10 Mar 2023 00:00:00 &#43;0000</pubDate>
-    <author>Newtea</author>
-    <guid>https://newtea.tk/free-app/</guid>
-    <description><![CDATA[No.1 乐看视频 下载点击：官方链接 【介绍】 乐看视频APP，所有资源均由搜索引擎检索于公开网络，通过爬虫获取网络资源 官方标语：希望你看的每一部电影,]]></description>
 </item>
 </channel>
 </rss>
