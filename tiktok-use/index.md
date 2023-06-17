@@ -5,12 +5,14 @@
 - 支持: iOS
 - 自备 Shadowrocket
 - 下载：在 美区/日区/台区 App Store 搜索 TikTok 并下载 （港区已停止运营）
+- 抓包降级tiktok到19.3.0或者21.1.0版本（直接下载安装最新版本无法使用）
 ## 特别注意
-1. 为什么要先卸载 TikTok，TikTok 会在第一次使用时触发限制，并导致之后无法通过 MiMt 解密。
+1. 先卸载 TikTok，TikTok 会在第一次使用时触发限制，并导致之后无法通过 MiMt 解密。
 2. 所以先配置好规则之后，然后在下载 TikTok，减少重定向的请求次数，降低风险，延长规则的寿命。
-3. 为什么配置好之后还是无法使用，请检查软件的证书有没有安装，信任。 
-4. 或者是 Https 解密（MiMt）与重写（Rewrite）有没有开启。
-5. 或者是软件是不是盗版，比如用共享 ID 下载的，有设备限制，是无法使用重写脚本功能的。
+3. 为什么配置好之后还是无法使用
+  - 请检查软件的证书有没有安装，信任。 
+  - Https 解密（MiMt）有没有开启。
+  - 软件是不是盗版，比如用共享 ID 下载的，有设备限制，是无法使用重写脚本功能的。
 
 ## **操作步骤**
 
@@ -24,43 +26,48 @@
 ### 如下对应每个地区不同的配置
 1. 打开链接 → 复制所有内容 → 粘贴到配置
 - **日本**
-```
+
+`
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKTok-JP.conf
-```
+`
 
 - **台湾**
-```
+
+`
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKTok-TW.conf
-```
+`
 
 - **韩国**
-```
+
+`
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKTok-KR.conf
-```
+`
 
 - **美国**
-```
+
+`
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TiKTok-US.conf
-```
+`
 
 4、添加以下`分流`，点击`配置` → 你使用的配置后的`i` → `规则` → 右上角加号 → `类型` → 选择`RULE-SET` → 策略 → 选择`PROXY`或者其他你想使用的策略（一般是对应地区的代理服务器节点） → 规则集URL文本框内填写
 
-```
+`
 https://raw.githubusercontent.com/Semporia/TikTok-Unlock/master/Shadowrocket/TikTok.list
-```
+`
 
 ### 抖音無法觀看 </a>
 
 在hostname中加上以下兩條
-```
+
+`
 -*snssdk.com, -*amemv.com
-```
+`
 
 ---
 ### 抖音IP代理 </a>
 
 订阅分流
 
-```
+`
 https://raw.githubusercontent.com/Semporia/Quantumult-X/master/Filter/DouYin.list
-```
+`
