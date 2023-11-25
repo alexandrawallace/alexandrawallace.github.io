@@ -24,5 +24,5 @@
 > - 2023-03-04 搬迁部分文章、修改主题内容
 > - 2023-03-02 采用HUGO重新搭建网站
 > # 音乐
-> {{< music server="netease" type="song" id="1868553" >}}
+> {{< music server="netease" type="song" id="1410647903" >}}
 >
