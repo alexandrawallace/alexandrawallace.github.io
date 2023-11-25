@@ -1,7 +1,11 @@
 {
 	"version": 3,
 	"file": "style.min.css",
+<<<<<<< HEAD
 	"sourceRoot": "E:/实习资料/myself/myself/myblog/blog/blog",
+=======
+	"sourceRoot": "D:/快决策学习文件/myself/myblog/blog/blog",
+>>>>>>> b9349878106b38b10e23647271e31c65ab603121
 	"sources": [
 		"themes/LoveIt/assets/css/style.scss",
 		"themes/LoveIt/assets/lib/normalize/normalize.css",
